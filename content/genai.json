@@ -1,0 +1,36 @@
+{
+  "intro": "I use generative AI and large language models as collaborators in analytics, experimentation, and storytelling—not as black boxes. My focus is on using these tools to speed up exploration, systematize best practices, and unlock better questions.",
+  "pillars": [
+    {
+      "title": "Analytics Copilot",
+      "description": "Using LLMs to draft queries, explore schema, and generate first-pass analyses that I then refine and validate.",
+      "examples": [
+        "Turning natural language business questions into candidate SQL and Python snippets.",
+        "Generating alternative hypotheses and experiment ideas given historical performance data."
+      ]
+    },
+    {
+      "title": "Narratives and Decision Support",
+      "description": "Pairing quantitative work with AI-assisted narratives to help non-technical stakeholders understand tradeoffs and results.",
+      "examples": [
+        "Summarizing complex analytical workflows into concise, audience-appropriate takeaways.",
+        "Creating alternative story framings (executive summary vs. technical appendix) from the same underlying analysis."
+      ]
+    },
+    {
+      "title": "Tooling and Prototyping",
+      "description": "Experimenting with LLM-powered internal tools that sit on top of analytics stacks and documentation.",
+      "examples": [
+        "Exploring how embeddings and retrieval can help surface prior analyses and guardrail best practices.",
+        "Prototyping assistants that help sales and partner-facing teams answer data questions faster."
+      ]
+    }
+  ],
+  "skills": [
+    "Prompt design for analytics and experimentation",
+    "Using LLMs to accelerate exploratory data analysis",
+    "Evaluating AI-assisted outputs for rigor and bias",
+    "Collaborating with engineering to harden successful prototypes"
+  ]
+}
+

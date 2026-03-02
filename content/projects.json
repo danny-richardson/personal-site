@@ -1,0 +1,60 @@
+[
+  {
+    "slug": "automated-sales-analytics-workflows",
+    "title": "Automated Sales Analytics Workflows",
+    "roleContext": "Pinterest · Senior Data Scientist / Data Scientist",
+    "summary": "A suite of automated analytics workflows that turn complex behavioral data into revenue-focused narratives for sales teams.",
+    "problem": "Sales and go-to-market teams needed faster, repeatable ways to translate behavioral signals into client-ready stories without manual, one-off analysis.",
+    "approach": [
+      "Designed datasets and transformations to capture advertiser and user behavior at the right level of granularity.",
+      "Built automated workflows to generate narrative-ready outputs, balancing statistical rigor with interpretability.",
+      "Partnered with sales and product stakeholders to define success metrics and iterate on prototypes."
+    ],
+    "outcomes": [
+      "Improved sales team productivity by reducing the time-to-insight for key accounts.",
+      "Enabled more consistent, data-backed narratives for advertising partners.",
+      "Contributed to measurable increases in ad revenue through better use of behavioral insights."
+    ],
+    "tags": ["analytics engineering", "data storytelling", "automation"],
+    "experienceSlugs": ["pinterest-senior-data-scientist", "pinterest-data-scientist"]
+  },
+  {
+    "slug": "global-analytical-insights-platform",
+    "title": "Global Analytical Insights Platform",
+    "roleContext": "Pinterest · Insights Analyst",
+    "summary": "An end-to-end analytical insights tool used globally and tied to tens of millions in annual revenue.",
+    "problem": "Client teams needed a scalable way to surface relevant behavioral insights across markets without rebuilding bespoke analyses.",
+    "approach": [
+      "Owned the full lifecycle of an end-to-end analytics tool built with Python, SQL, and Spark.",
+      "Implemented reusable templates and guardrails to keep insights statistically sound and on-brand.",
+      "Collaborated with product and engineering to scale the tool’s performance and coverage."
+    ],
+    "outcomes": [
+      "Tool was tied to over $65M of revenue in 2021.",
+      "Became a central part of how teams framed opportunities and performance in client conversations.",
+      "Reduced manual analysis workload and enabled consistent insights across regions."
+    ],
+    "tags": ["python", "sql", "spark", "internal tooling"],
+    "experienceSlugs": ["pinterest-insights-analyst"]
+  },
+  {
+    "slug": "hackathon-cost-savings-tooling",
+    "title": "Hackathon: Cost-Savings Tooling",
+    "roleContext": "Pinterest · Data Scientist",
+    "summary": "Hackathon projects that evolved into stop-gap automated tools delivering multi-million dollar cost savings.",
+    "problem": "Several workflows were expensive or inefficient, and there was no short-term path to fully productized solutions.",
+    "approach": [
+      "Identified high-impact cost centers where targeted automation could provide immediate wins.",
+      "Rapidly prototyped analytical tools to plug key gaps while long-term roadmaps were in progress.",
+      "Partnered with engineering and product teams to harden the most successful prototypes."
+    ],
+    "outcomes": [
+      "Recognized as a 3x company-wide hackathon award winner.",
+      "Estimated around $10M in cost savings across the most impactful tools.",
+      "Provided a blueprint for turning experimental analytics tooling into productized workflows."
+    ],
+    "tags": ["hackathon", "cost optimization", "rapid prototyping"],
+    "experienceSlugs": ["pinterest-data-scientist"]
+  }
+]
+

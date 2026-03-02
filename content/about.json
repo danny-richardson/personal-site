@@ -1,0 +1,32 @@
+{
+  "name": "Daniel Richardson",
+  "headline": "Senior Data Scientist @ Pinterest",
+  "location": "San Francisco, California, United States",
+  "summary": "Data scientist with 6+ years of experience translating complex business problems into actionable insights across ad sales, product, and analytics. I specialize in building analytical tools, workflows, and narratives that connect behavioral data to business outcomes.",
+  "focusAreas": [
+    "Data science and analytics engineering",
+    "Behavioral insights for advertising and growth",
+    "Applied machine learning and experimentation",
+    "Gen AI and LLM-powered analytics"
+  ],
+  "education": [
+    {
+      "degree": "BA Economics, Honors",
+      "school": "San Francisco State University",
+      "highlights": [
+        "Focus on econometrics, finance, and labor economics"
+      ]
+    },
+    {
+      "degree": "BS Decision Sciences, Honors",
+      "school": "San Francisco State University",
+      "highlights": [
+        "Focus on applied statistics, data mining, and optimization"
+      ]
+    }
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/daniel-r-richardson/"
+  }
+}
+

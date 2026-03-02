@@ -1,0 +1,113 @@
+[
+  {
+    "company": "Pinterest",
+    "title": "Senior Data Scientist",
+    "location": "San Francisco, California, United States",
+    "start": "2023-07",
+    "end": null,
+    "timelineLabel": "Jul 2023 – Present",
+    "highlights": [
+      "Co-led a company-wide data science and analytics mentorship program with hundreds of internal applicants each year.",
+      "Designed and implemented automated analytics workflows that transformed complex behavioral insights into revenue-generating data narratives.",
+      "Drove measurable increases in sales team productivity and advertising revenue through scalable insights tooling.",
+      "Evangelized innovative products, tools, and methodologies to business leaders and cross-functional partners from ideation to scaled solutions."
+    ]
+  },
+  {
+    "company": "Pinterest",
+    "title": "Data Scientist",
+    "location": "San Francisco, California, United States",
+    "start": "2022-03",
+    "end": "2023-07",
+    "timelineLabel": "Mar 2022 – Jul 2023",
+    "highlights": [
+      "3x company-wide hackathon award winner for stop-gap automated analytical tools that yielded around $10M in cost savings and led to fully productized work streams.",
+      "Co-led a company-wide data science and analytics mentorship program with hundreds of internal applicants each half.",
+      "Led development of an Insights Innovation pod focusing on methodologies, models, tools, and metrics to derive new behavioral insights and answer vexing business questions.",
+      "Awarded best lightning talk for an interest-based clustering project during an applied machine learning program.",
+      "Productized analytical insights, methodologies, and tools into external and internal products in partnership with sales, product, and engineering."
+    ]
+  },
+  {
+    "company": "Pinterest",
+    "title": "Insights Analyst",
+    "location": "San Francisco Bay Area",
+    "start": "2020-03",
+    "end": "2022-03",
+    "timelineLabel": "Mar 2020 – Mar 2022",
+    "highlights": [
+      "Solely owned development, maintenance, and global deployment of an end-to-end analytical insights tool tied to over $65M of revenue in 2021 (Python, SQL, Spark).",
+      "Designed, built, and deployed internal analytical tools that used natural language processing and network theory to glean insights from primary search data.",
+      "Collaborated with product and engineering teams to scale analytical tools and methodologies across the organization.",
+      "Translated complex problems into actionable decisions for non-technical stakeholders using both quantitative and qualitative approaches."
+    ]
+  },
+  {
+    "company": "Vega Economics",
+    "title": "Associate",
+    "location": "San Francisco Bay Area",
+    "start": "2019-05",
+    "end": "2020-03",
+    "timelineLabel": "May 2019 – Mar 2020",
+    "highlights": [
+      "Developed algorithms in Python and R to analyze asset-backed securities data for statistical analysis.",
+      "Designed scalable extractive text summarization pipelines to OCR, clean, and extract key information from documents.",
+      "Built in-house analytical tools to streamline data processes for outputs of computer simulations, multivariable regression models, and data analysis.",
+      "Collaborated with economists, statisticians, and data analysts to perform quantitative analysis for major law firms and financial institutions."
+    ]
+  },
+  {
+    "company": "Financial Analysis and Management Education (FAME)",
+    "title": "Python Developer",
+    "location": "San Francisco, California",
+    "start": "2018-06",
+    "end": "2019-04",
+    "timelineLabel": "Jun 2018 – Apr 2019",
+    "highlights": [
+      "Collaborated on developing a 25-week online course for quantitative finance using Python.",
+      "Developed custom Python programs to report and visualize data in the cloud as daily dashboards using Plotly, WSJ, and Yahoo APIs.",
+      "Contributed weekly written analysis on market volatility, economic variables, and cryptocurrencies."
+    ]
+  },
+  {
+    "company": "Financial Analysis and Management Education (FAME)",
+    "title": "Director of Professional Development",
+    "location": "San Francisco Bay Area",
+    "start": "2017-11",
+    "end": "2018-06",
+    "timelineLabel": "Nov 2017 – Jun 2018",
+    "highlights": [
+      "Helped organize one of the largest student-run investment conferences on the West Coast in 2017.",
+      "Led groups of 30+ students in meetings on business etiquette, data analytics, and stock valuation.",
+      "Managed a team that analyzed the TMT sector and pitched stocks using discounted cash flow models."
+    ]
+  },
+  {
+    "company": "U.S. House of Representatives (Panetta Institute)",
+    "title": "Panetta Institute Intern",
+    "location": "Washington, District of Columbia",
+    "start": "2018-08",
+    "end": "2018-11",
+    "timelineLabel": "Aug 2018 – Nov 2018",
+    "highlights": [
+      "Completed a nationally recognized fellowship program under former Secretary of Defense Leon Panetta.",
+      "Conducted research on nuclear, technology, and data policy using congressional resources to support staffers drafting legislation.",
+      "Attended Senate and House hearings on data privacy, national security, artificial intelligence, and blockchain.",
+      "Researched and published policy analysis on emerging technologies."
+    ]
+  },
+  {
+    "company": "Bedell Frazier Investment Counselling",
+    "title": "Data Analyst Intern",
+    "location": "Walnut Creek, California",
+    "start": "2018-06",
+    "end": "2018-08",
+    "timelineLabel": "Jun 2018 – Aug 2018",
+    "highlights": [
+      "Played an instrumental role in developing a MySQL database for financial data.",
+      "Integrated data from Salesforce, Excel, and other systems using Python and APIs.",
+      "Ran and optimized SQL scripts to extract information for downstream data analysis."
+    ]
+  }
+]
+
