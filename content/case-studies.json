@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "pinterest-personas",
+    "title": "Pinterest Personas",
+    "roleContext": "Bottoms-up audience modeling initiative · Pinterest",
+    "problem": "Advertisers could not target the kinds of granular, behavior-based audiences that actually described how people used Pinterest. Manual analysis produced interesting decks, but there was a hard ceiling on how many advertisers could benefit and how quickly those insights could refresh.",
+    "insight": "The constraint was not analyst time, it was the representation of people. If we could cluster behavioral signals into stable, interpretable personas rather than rely on declared attributes, we could unlock entirely new ways to buy media.",
+    "approach": "I treated audience definition as an unsupervised learning and product design problem. I built behavioral embedding spaces, experimented with clustering (including HDBScan-style approaches), and personified the resulting clusters so they made sense to sales, product, and advertisers. I then worked with partners to turn those personas into internal tools and, eventually, a full audience product – all without a formal initial mandate.",
+    "impact": "What started as a passion project became a production product powering advertiser audience strategy. Personas now support campaigns across global brands and categories and reshaped how we talk about Pinterest's value to the market.",
+    "metrics": [
+      "$80M+ incremental annual revenue attributable to personas",
+      "Adoption across global advertisers and internal sales teams",
+      "Spawned follow-on work in behavioral audience modeling"
+    ]
+  },
+  {
+    "slug": "gtm-intelligence-platform",
+    "title": "GTM Intelligence Platform",
+    "roleContext": "Insights innovation and automation · Pinterest",
+    "problem": "Sales and analyst teams were stitching together answers from disconnected dashboards, ad hoc SQL, and stale slide decks. The result was slow, inconsistent insights that did not scale with the number of sellers or the complexity of our data.",
+    "insight": "If we treated sales intelligence as an orchestration problem rather than a dashboard problem, we could combine structured data marts with semantic vector search and let an agent do the first several hours of work: retrieve, reconcile, and narrate.",
+    "approach": "I worked with partners to define a unified data layer, then designed workflows where an agentic system retrieves context, composes text2SQL queries, runs analysis, and generates narrative output for sellers. The goal was not a chat demo; it was a dependable copilot embedded in how teams prepare for conversations and plan territory.",
+    "impact": "The platform changed who needed to touch SQL and slideware and when. Sellers and analysts gained faster, more consistent answers, and leadership gained a clearer view of pipeline health and opportunity.",
+    "metrics": [
+      "+11% year-over-year revenue per seller lift associated with the broader automation workstream",
+      "Productivity gains across 500+ sellers and analysts",
+      "Used regularly in executive reviews and planning"
+    ]
+  },
+  {
+    "slug": "llm-consumer-research-assistant",
+    "title": "LLM Consumer Research Assistant",
+    "roleContext": "Advertiser experience hackathon project · Pinterest",
+    "problem": "Deep advertiser research meant bouncing between financial filings, news, social sentiment, and internal data. Each engagement could quietly demand hours of synthesis before anyone wrote a single slide or recommendation.",
+    "insight": "A retrieval-augmented assistant that can see across these sources, reason about them together, and draft narratives could erase most of the research layer and let humans focus on judgment and strategy.",
+    "approach": "I built a RAG system that pulls from financial data, news, and curated social and internal signals, then uses Claude and OpenAI models to synthesize findings into narrative briefs and draft-ready decks. The assistant is designed to be opinionated about structure while transparent about evidence.",
+    "impact": "The assistant is on track to automate thousands of research hours per month and to standardize the quality of preparation across teams, not just individuals.",
+    "metrics": [
+      "1st place, 2025 Pinterest Hackathon — Advertiser Experience",
+      "Projected to automate thousands of analyst research hours per month",
+      "Creates consistent, reusable artifacts for recurring verticals and accounts"
+    ]
+  }
+]
+

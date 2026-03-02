@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Generative AI & LLMs",
+    "perspective": "I think of language models as programmable reasoning surfaces, not oracles — useful when they sit on top of well-structured data and opinionated workflows.",
+    "projectAnchor": "From early NLP text summarization at Vega Economics to production RAG systems and agentic workflows at Pinterest, I have treated LLMs as tools to compress exploration time, not replace analysis.",
+    "outcome": "Shipped assistants and workflows that move from \"draft me a slide\" to \"interrogate this space, propose options, and surface the tradeoffs.\""
+  },
+  {
+    "title": "Embedding Spaces & Semantic Search",
+    "perspective": "The hard part is deciding what similarity should mean for the business question, then designing embedding spaces that encode that meaning.",
+    "projectAnchor": "For personas and audience modeling work, I built behavioral embeddings and clustering pipelines that framed people in terms of how they actually used Pinterest, not just what they said about themselves.",
+    "outcome": "Informed 30+ joint business plans and powered audience products that advertisers can reason about instead of treating as a black box."
+  },
+  {
+    "title": "Agentic Workflows & Orchestration",
+    "perspective": "Agents are most useful when their responsibilities are narrow, observable, and grounded in real decision points rather than vague autonomy.",
+    "projectAnchor": "In the GTM Intelligence Platform, agents own retrieval, query planning, and narrative drafting, while humans own constraints, tradeoffs, and final calls.",
+    "outcome": "Systems where the first several hours of work are automated, but the last mile remains explicitly human and accountable."
+  },
+  {
+    "title": "BI \u2192 Agent-First Products",
+    "perspective": "Dashboards answer the questions you already knew to ask. Agent-first products start from solid data foundations and then automate the path to commercially relevant answers.",
+    "projectAnchor": "I led the shift from static dashboards to agentic, context-aware tools that sit between sellers and data, backed by text2SQL infrastructure, enrichment pipelines, and layered context so outputs map to how the business actually makes money.",
+    "outcome": "Sellers can ask better questions without analysts as the bottleneck, leadership sees a truer picture of pipeline and opportunity, and we avoid the \"AI slop\" trap of pretty but disconnected answers."
+  },
+  {
+    "title": "Production ML Systems",
+    "perspective": "Models that never leave a notebook are hobbies. The bar is production systems that handle edge cases, monitoring, and real-world feedback loops.",
+    "projectAnchor": "Across personas, clustering pipelines, and revenue-facing tools, I focused on the boring details: data contracts, handoffs, and how humans actually interact with the outputs.",
+    "outcome": "ML-driven products that hold up under load, stay interpretable to stakeholders, and connect directly to revenue and customer outcomes."
+  }
+]
+

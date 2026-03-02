@@ -1,0 +1,17 @@
+{
+  "name": "Daniel Richardson",
+  "oneLiner": "I build AI systems that turn ambiguous problems into measurable impact.",
+  "bio": "Senior Data Scientist and AI systems builder at Pinterest. Over the last six years I have shipped production systems that started as side projects and grew into $80M+ audience products, global insights tooling, and agentic workflows used by hundreds of sellers and analysts. I work at the seam between modeling, product strategy, and narrative so that the work lands, not just runs.",
+  "location": "San Francisco, California",
+  "ctas": [
+    {
+      "label": "See My Work",
+      "href": "#work"
+    },
+    {
+      "label": "About Me",
+      "href": "#about"
+    }
+  ]
+}
+

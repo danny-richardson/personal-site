@@ -1,32 +1,49 @@
 {
   "name": "Daniel Richardson",
-  "headline": "Senior Data Scientist @ Pinterest",
+  "headline": "Senior Data Scientist & AI systems builder @ Pinterest",
   "location": "San Francisco, California, United States",
-  "summary": "Data scientist with 6+ years of experience translating complex business problems into actionable insights across ad sales, product, and analytics. I specialize in building analytical tools, workflows, and narratives that connect behavioral data to business outcomes.",
+  "summary": "I build AI systems that start as scrappy experiments and grow into production products with real numbers behind them. From data engineering foundations to agentic orchestration and the context layers around them, my focus is on workflows that stay commercially viable in a world full of AI slop.",
   "focusAreas": [
-    "Data science and analytics engineering",
-    "Behavioral insights for advertising and growth",
-    "Applied machine learning and experimentation",
-    "Gen AI and LLM-powered analytics"
+    "Behavioral audience modeling and clustering",
+    "Agentic workflows for sales and analytics automation",
+    "Retrieval-augmented generation and semantic search",
+    "ML systems that ship and stay tied to revenue"
   ],
   "education": [
     {
-      "degree": "BA Economics, Honors",
-      "school": "San Francisco State University",
+      "degree": "Graduate Certificate, Machine Learning & Artificial Intelligence",
+      "school": "Carnegie Mellon University",
       "highlights": [
-        "Focus on econometrics, finance, and labor economics"
+        "Graduate-level ML and AI program focused on statistical learning, representation learning, and production-oriented systems design.",
+        "Expected completion July 2026."
       ]
     },
     {
       "degree": "BS Decision Sciences, Honors",
       "school": "San Francisco State University",
       "highlights": [
-        "Focus on applied statistics, data mining, and optimization"
+        "Applied statistics, operations research, data mining, forecasting, computer simulation, and optimization.",
+        "Gave me the quantitative toolkit that later anchored my move into data science."
+      ]
+    },
+    {
+      "degree": "BA Economics, Honors",
+      "school": "San Francisco State University, Lam Family College of Business",
+      "highlights": [
+        "Econometrics, game theory, labor economics, and quantitative finance.",
+        "Represented the university at the Panetta Institute in Washington, DC and helped run the SF State Student Investment Fund."
       ]
     }
   ],
   "links": {
     "linkedin": "https://www.linkedin.com/in/daniel-r-richardson/"
-  }
+  },
+  "essay": [
+    "I did not come up through the conventional CS pipeline. I was a first-generation college student, working my way through school and trying to make sense of abstract math that only clicked when I could write code against it. Programming turned proofs into experiments, and that shift changed how I approach every hard problem: make it concrete, make it buildable, make it real.",
+    "At Pinterest I have followed the same pattern: find the gap that is slowing teams down, sketch the system that could close it, and then do the unglamorous work required to make that system real. Personas started as nights-and-weekends behavioral clustering work and grew into an $80M+ audience product. Insights tooling that began as a way to save analysts from repetitive work became core to how sales talks about the business.",
+    "I do not chase titles or headcount. I care about whether the thing we shipped changed how people work and whether we can point to numbers that matter. The four company-wide hackathon wins are not trophies; they are snapshots of a longer pattern of building into spaces that are still half-defined and pushing them closer to production.",
+    "A lot of AI today optimizes for volume: more prompts, more outputs, more dashboards. I try to move in the opposite direction—designing workflows that start with clean data foundations, layer in agentic automation only where it survives contact with the business, and wrap the whole thing in context so the outputs are commercially relevant, not just technically impressive.",
+    "Right now I am deepening my technical foundation through a graduate Machine Learning & Artificial Intelligence certificate at Carnegie Mellon University. It is not a pivot, it is a progression: more tools to design systems deliberately, address messy problems more rigorously, and take on work that demands both architectural thinking and hands-on implementation."
+  ]
 }
 
