@@ -12,6 +12,7 @@
   --color-accent: var(--accent);
   --font-sans: var(--font-sans);
   --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
 }
 
 body {
@@ -71,4 +72,46 @@ a:hover {
 
 .section-shell {
   scroll-margin-top: 96px;
+}
+
+/* ── Entrance animations ─────────────────────────── */
+
+@keyframes fade-up-in {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Hero: pure CSS cascade — no JS needed */
+.hero-enter {
+  animation: fade-up-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.hero-delay-1 { animation-delay:  80ms; }
+.hero-delay-2 { animation-delay: 150ms; }
+.hero-delay-3 { animation-delay: 210ms; }
+.hero-delay-4 { animation-delay: 270ms; }
+.hero-delay-5 { animation-delay: 340ms; }
+.hero-delay-6 { animation-delay: 410ms; }
+
+/* Scroll-triggered: initial state (hidden below fold is fine pre-hydration) */
+[data-animate] {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+}
+[data-animate].in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-animate] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .hero-enter {
+    animation: none;
+    opacity: 1;
+  }
 }

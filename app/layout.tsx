@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { DM_Serif_Display, Source_Sans_3 } from "next/font/google";
+import { DM_Serif_Display, JetBrains_Mono, Source_Sans_3 } from "next/font/google";
+import { NavActive } from "@/app/components/nav-active";
 import "./globals.css";
 
 const display = DM_Serif_Display({
@@ -12,6 +13,12 @@ const display = DM_Serif_Display({
 const sans = Source_Sans_3({
   subsets: ["latin"],
   variable: "--font-sans",
+});
+
+const mono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+  weight: ["400", "500"],
 });
 
 export const metadata: Metadata = {
@@ -38,10 +45,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${display.variable} ${sans.variable} antialiased`}>
-        <div className="min-h-screen bg-page text-page md:flex">
+      <body className={`${display.variable} ${sans.variable} ${mono.variable} antialiased`}>
+        <div className="min-h-screen bg-page text-page md:flex md:items-start">
           {/* Sidebar for desktop */}
-          <aside className="hidden w-64 flex-col justify-between border-r border-neutral-200 bg-sidebar px-8 py-8 md:flex">
+          <aside className="hidden w-64 shrink-0 sticky top-0 h-screen flex-col justify-between border-r border-neutral-200 bg-sidebar px-8 py-8 md:flex">
             <div className="space-y-8">
               <div className="space-y-1">
                 <Link
@@ -54,17 +61,7 @@ export default function RootLayout({
                   Data scientist & AI systems builder
                 </p>
               </div>
-              <nav className="space-y-2 text-sm">
-                {navLinks.map((link) => (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    className="block rounded-full px-3 py-1 text-neutral-700 transition hover:bg-neutral-100 hover:text-neutral-900"
-                  >
-                    {link.label}
-                  </Link>
-                ))}
-              </nav>
+              <NavActive links={navLinks} />
             </div>
             <div className="space-y-2 text-xs text-neutral-500">
               <p>San Francisco, California</p>
@@ -104,7 +101,7 @@ export default function RootLayout({
           </header>
 
           {/* Main content */}
-          <main className="mx-auto flex-1 px-4 py-10 md:ml-64 md:max-w-4xl md:px-12 md:py-14">
+          <main className="min-w-0 flex-1 px-4 py-10 md:px-12 md:py-14">
             {children}
           </main>
         </div>

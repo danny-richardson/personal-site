@@ -1,7 +1,10 @@
 {
   "name": "Daniel Richardson",
-  "oneLiner": "I build AI systems that turn ambiguous problems into measurable impact.",
-  "bio": "Senior Data Scientist and AI systems builder at Pinterest. Over the last six years I have shipped production systems that started as side projects and grew into $80M+ audience products, global insights tooling, and agentic workflows used by hundreds of sellers and analysts. I work at the seam between modeling, product strategy, and narrative so that the work lands, not just runs.",
+  "oneLiner": "I build AI systems that ship — then I go find the next impossible thing.",
+  "bioLines": [
+    "Senior Data Scientist at Pinterest. I turned a self-initiated behavioral clustering experiment into an $80M+ audience product. I designed the GTM intelligence platform now running at scale across hundreds of sellers. I'm currently building agentic layers that capture the semantic relationships between business problems, solutions, and outcomes — the context layer that makes AI useful rather than just impressive. Four company-wide hackathon wins. Five cohorts of mentees led through Pinterest's internal data program.",
+    "Off the clock: I've walked the Camino de Santiago across Spain, free-climbed sea cliffs above the Mediterranean in Mallorca, and spent a week caring for rescued elephants in rural Thailand. I build furniture with hand tools. I wire up Arduinos and Raspberry Pis. Different domains, same instinct — figure out how it works, then make something with it."
+  ],
   "location": "San Francisco, California",
   "ctas": [
     {
@@ -14,4 +17,3 @@
     }
   ]
 }
-

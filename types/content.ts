@@ -55,7 +55,8 @@ export type GenAiContent = {
 export type Hero = {
   name: string;
   oneLiner: string;
-  bio: string;
+  bio?: string;
+  bioLines?: string[];
   location: string;
   ctas: {
     label: string;

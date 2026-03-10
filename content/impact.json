@@ -1,28 +1,33 @@
 [
   {
-    "label": "Annual incremental revenue",
-    "value": "$80M+",
-    "description": "Pinterest Personas behavioral audience product that began as a bottoms-up initiative."
+    "label": "Incremental revenue from Personas targeting algorithm",
+    "value": ">$350M",
+    "description": "Pinterest Personas behavioral audience targeting algorithm I developed from a bottoms-up initiative — now a production product generating compounding revenue since 2022."
   },
   {
-    "label": "Insights tooling revenue",
-    "value": "$60M+",
-    "description": "End-to-end analytical tools tied to advertiser outcomes and narrative sales motions."
-  },
-  {
-    "label": "People using the work",
-    "value": "500+",
-    "description": "Sellers and analysts supported by automation and agentic workflows."
-  },
-  {
-    "label": "Mentorship reach",
-    "value": "60+",
-    "description": "Mentees across 5 cohorts in a company-wide data science and analytics mentorship program."
-  },
-  {
-    "label": "Hackathon wins",
+    "label": "Company-wide hackathon wins",
     "value": "4×",
-    "description": "Company-wide hackathons at Pinterest across cost savings and advertiser experience tracks."
+    "description": "Across cost savings and advertiser experience tracks at Pinterest."
+  },
+  {
+    "label": "Internal stakeholders served",
+    "value": "1000s",
+    "description": "Sellers, researchers, and analysts across Pinterest relying on automation, tooling, and agentic workflows."
+  },
+  {
+    "label": "End-to-end AI tools & automations built",
+    "value": "20+",
+    "description": "Internal analytical tools and automation systems led from design through production deployment."
+  },
+  {
+    "label": "Scaled advertiser research projects led",
+    "value": "40+",
+    "description": "End-to-end research engagements for Pinterest's largest advertisers (2020–2022), presented directly to client decision-makers."
+  },
+  {
+    "label": "Ad revenue touched by standardized methodology",
+    "value": ">$1B",
+    "description": "Owned the standardization and innovation of insights methodologies and shared code used by 50+ global researchers."
   },
   {
     "label": "Revenue per seller lift",
@@ -30,9 +35,13 @@
     "description": "Year-over-year revenue per seller lift associated with automation and intelligence workstreams."
   },
   {
-    "label": "CMU ML/AI certificate",
+    "label": "Mentorship reach",
+    "value": "60+",
+    "description": "Mentees across 5 cohorts in a company-wide data science and analytics mentorship program."
+  },
+  {
+    "label": "CMU ML/AI certificate GPA",
     "value": "4.0",
     "description": "Graduate-level ML/AI coursework at Carnegie Mellon, focused on depth and rigor."
   }
 ]
-
