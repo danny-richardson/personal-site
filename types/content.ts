@@ -14,6 +14,7 @@ export type About = {
   };
   // Optional long-form personal essay for the About section
   essay?: string[];
+  pullQuotes?: string[];
 };
 
 export type Experience = {
@@ -26,6 +27,7 @@ export type Experience = {
   highlights: string[];
   // Single condensed line describing the core of the role
   tagline?: string;
+  logoUrl?: string;
 };
 
 export type Project = {

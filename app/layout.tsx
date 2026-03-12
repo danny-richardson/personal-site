@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { DM_Serif_Display, JetBrains_Mono, Source_Sans_3 } from "next/font/google";
-import { NavActive } from "@/app/components/nav-active";
+import { Space_Grotesk, JetBrains_Mono, Source_Sans_3 } from "next/font/google";
+import { LenisProvider } from "@/app/components/lenis-provider";
 import "./globals.css";
 
-const display = DM_Serif_Display({
+const display = Space_Grotesk({
   subsets: ["latin"],
-  weight: "400",
+  weight: ["400", "500", "600", "700"],
   variable: "--font-display",
 });
 
@@ -29,12 +29,11 @@ export const metadata: Metadata = {
 
 const navLinks = [
   { href: "/#home", label: "Home" },
-  { href: "/#work", label: "Work" },
-  { href: "/#stack", label: "Stack" },
-  { href: "/#impact", label: "Impact" },
   { href: "/#about", label: "About" },
-  { href: "/#education", label: "Education" },
+  { href: "/#impact", label: "Impact" },
+  { href: "/#work", label: "Work" },
   { href: "/#experience", label: "Experience" },
+  { href: "/#education", label: "Education" },
   { href: "/#connect", label: "Connect" },
 ] as const;
 
@@ -46,67 +45,42 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${display.variable} ${sans.variable} ${mono.variable} antialiased`}>
-        <div className="min-h-screen bg-page text-page md:flex md:items-start">
-          {/* Sidebar for desktop */}
-          <aside className="hidden w-64 shrink-0 sticky top-0 h-screen flex-col justify-between border-r border-neutral-200 bg-sidebar px-8 py-8 md:flex">
-            <div className="space-y-8">
-              <div className="space-y-1">
+        <LenisProvider>
+          {/* Fixed top nav */}
+          <nav className="fixed top-0 inset-x-0 z-50 flex items-center justify-between px-6 py-4 backdrop-blur-md border-b border-white/5 bg-background/70">
+            <Link href="/#home" className="font-display text-lg font-medium tracking-tight">
+              daniel.
+            </Link>
+            <div className="hidden md:flex items-center gap-6">
+              {navLinks.map((link) => (
                 <Link
-                  href="/#home"
-                  className="font-display text-xl font-semibold tracking-tight"
+                  key={link.href}
+                  href={link.href}
+                  className="label-mono text-muted hover:text-foreground transition-colors"
                 >
-                  daniel.
+                  {link.label}
                 </Link>
-                <p className="text-xs text-neutral-600">
-                  Data scientist & AI systems builder
-                </p>
-              </div>
-              <NavActive links={navLinks} />
+              ))}
             </div>
-            <div className="space-y-2 text-xs text-neutral-500">
-              <p>San Francisco, California</p>
-              <a
-                href="https://www.linkedin.com/in/daniel-r-richardson/"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-1 text-neutral-700 underline-offset-2 hover:underline"
-              >
-                LinkedIn
-              </a>
-              <p>© {new Date().getFullYear()} Daniel Richardson</p>
+            <div className="flex md:hidden items-center gap-4">
+              {navLinks.slice(0, 3).map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="label-mono text-muted hover:text-foreground transition-colors"
+                >
+                  {link.label}
+                </Link>
+              ))}
             </div>
-          </aside>
-
-          {/* Top nav for mobile */}
-          <header className="border-b border-neutral-200 bg-sidebar/95 px-4 py-4 md:hidden">
-            <div className="mx-auto flex max-w-5xl items-center justify-between">
-              <Link
-                href="/#home"
-                className="font-display text-lg font-semibold tracking-tight"
-              >
-                daniel.
-              </Link>
-              <nav className="flex items-center gap-3 text-xs">
-                {navLinks.slice(0, 3).map((link) => (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    className="text-neutral-700 underline-offset-2 hover:underline"
-                  >
-                    {link.label}
-                  </Link>
-                ))}
-              </nav>
-            </div>
-          </header>
+          </nav>
 
           {/* Main content */}
-          <main className="min-w-0 flex-1 px-4 py-10 md:px-12 md:py-14">
+          <main className="pt-16">
             {children}
           </main>
-        </div>
+        </LenisProvider>
       </body>
     </html>
   );
 }
-

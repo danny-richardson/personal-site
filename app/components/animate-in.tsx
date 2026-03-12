@@ -6,10 +6,12 @@ export function AnimateIn({
   children,
   className,
   delay = 0,
+  variant = 'fade-up',
 }: {
   children: ReactNode
   className?: string
   delay?: number
+  variant?: 'fade-up' | 'slide-left' | 'scale-up'
 }) {
   const ref = useRef<HTMLDivElement>(null)
 
@@ -38,7 +40,12 @@ export function AnimateIn({
   }, [delay])
 
   return (
-    <div ref={ref} data-animate className={className}>
+    <div
+      ref={ref}
+      data-animate={variant === 'fade-up' ? '' : undefined}
+      data-animate-variant={variant !== 'fade-up' ? variant : undefined}
+      className={className}
+    >
       {children}
     </div>
   )

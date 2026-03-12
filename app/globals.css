@@ -1,15 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f8f5f0;
-  --foreground: #1a1a1a;
-  --accent: #2a6b7c;
+  --background: #08090d;
+  --foreground: #dde1ea;
+  --muted: #52596a;
+  --accent: #4a8fff;
+  --surface: #0e1116;
+  --surface-2: #141820;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
   --color-accent: var(--accent);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
   --font-sans: var(--font-sans);
   --font-display: var(--font-display);
   --font-mono: var(--font-mono);
@@ -23,7 +29,7 @@ body {
 }
 
 .font-display {
-  font-family: var(--font-display), "Times New Roman", serif;
+  font-family: var(--font-display), "Helvetica Neue", Arial, sans-serif;
 }
 
 .bg-page {
@@ -34,44 +40,96 @@ body {
   color: var(--foreground);
 }
 
-.bg-sidebar {
-  background-color: #f5f1ea;
+.bg-surface {
+  background-color: var(--surface);
+}
+
+.bg-surface-2 {
+  background-color: var(--surface-2);
 }
 
 .text-accent {
   color: var(--accent);
 }
 
+.text-muted {
+  color: var(--muted);
+}
+
 .border-accent {
   border-color: var(--accent);
+}
+
+/* Editorial mono label: 11px, uppercase, tracked */
+.label-mono {
+  font-family: var(--font-mono), "JetBrains Mono", monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
 
 a {
   text-decoration: none;
 }
 
+.prose-muted strong {
+  color: var(--foreground);
+  font-weight: 600;
+}
+
 a:hover {
   color: var(--accent);
 }
 
-.noise-hero {
+.section-shell {
+  scroll-margin-top: 64px;
+  overflow: clip;
   position: relative;
+}
+
+/* ── Marquee ──────────────────────────────────────── */
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 28s linear infinite;
+}
+
+/* ── Text reveal ─────────────────────────────────── */
+
+.reveal-line {
+  display: block;
   overflow: hidden;
 }
 
-.noise-hero::before {
-  content: "";
-  pointer-events: none;
-  position: absolute;
-  inset: 0;
-  background-image: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0.06) 0, transparent 55%),
-    radial-gradient(circle at 100% 100%, rgba(0, 0, 0, 0.06) 0, transparent 55%);
-  mix-blend-mode: soft-light;
-  opacity: 0.35;
+.reveal-inner {
+  display: block;
+  transform: translateY(101%);
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.section-shell {
-  scroll-margin-top: 96px;
+.revealed .reveal-inner {
+  transform: translateY(0);
+}
+
+/* ── Border draw ─────────────────────────────────── */
+
+.border-draw {
+  display: block;
+  height: 2px;
+  background: var(--accent);
+  width: 0;
+  transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.15s;
+}
+
+.in-view .border-draw {
+  width: 100%;
 }
 
 /* ── Entrance animations ─────────────────────────── */
@@ -92,20 +150,39 @@ a:hover {
 .hero-delay-5 { animation-delay: 340ms; }
 .hero-delay-6 { animation-delay: 410ms; }
 
-/* Scroll-triggered: initial state (hidden below fold is fine pre-hydration) */
+/* Scroll-triggered: initial state */
 [data-animate] {
   opacity: 0;
   transform: translateY(18px);
   transition: opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1),
               transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
 }
-[data-animate].in-view {
-  opacity: 1;
-  transform: translateY(0);
+
+[data-animate-variant="slide-left"] {
+  opacity: 0;
+  transform: translateX(-24px);
+  transition: opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+[data-animate-variant="scale-up"] {
+  opacity: 0;
+  transform: scale(0.94);
+  transition: opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-animate].in-view,
+[data-animate-variant].in-view {
+  opacity: 1;
+  transform: translateY(0) translateX(0) scale(1);
+}
+
+/* ── Reduced motion ──────────────────────────────── */
+
 @media (prefers-reduced-motion: reduce) {
-  [data-animate] {
+  [data-animate],
+  [data-animate-variant] {
     opacity: 1;
     transform: none;
     transition: none;
@@ -113,5 +190,16 @@ a:hover {
   .hero-enter {
     animation: none;
     opacity: 1;
+  }
+  .marquee-track {
+    animation: none;
+  }
+  .reveal-inner {
+    transform: none;
+    transition: none;
+  }
+  .border-draw {
+    width: 100%;
+    transition: none;
   }
 }

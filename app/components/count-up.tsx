@@ -20,7 +20,7 @@ export function CountUp({ value }: { value: string }) {
     if (!el) return
 
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      setDisplay(value)
+      // Skip animation — content already shown via `display || value` fallback
       return
     }
 

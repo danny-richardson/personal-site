@@ -7,6 +7,7 @@
     "end": null,
     "timelineLabel": "Jul 2023 – Present",
     "tagline": "Incubating and scaling AI systems for behavioral audiences, sales intelligence, and agentic analytics automation.",
+    "logoUrl": "/logos/companies/pinterest_logo.png",
     "highlights": [
       "Co-led a company-wide data science and analytics mentorship program with hundreds of internal applicants each year.",
       "Designed and implemented automated analytics workflows that transformed complex behavioral insights into revenue-generating data narratives.",
@@ -22,6 +23,7 @@
     "end": "2023-07",
     "timelineLabel": "Mar 2022 – Jul 2023",
     "tagline": "Built automation, clustering, and insights tooling that turned experimental ideas into production workflows and cost savings.",
+    "logoUrl": "/logos/companies/pinterest_logo.png",
     "highlights": [
       "3x company-wide hackathon award winner for stop-gap automated analytical tools that yielded around $10M in cost savings and led to fully productized work streams.",
       "Co-led a company-wide data science and analytics mentorship program with hundreds of internal applicants each half.",
@@ -38,6 +40,7 @@
     "end": "2022-03",
     "timelineLabel": "Mar 2020 – Mar 2022",
     "tagline": "Owned a global insights platform and NLP tooling that connected search behavior to advertiser narratives at scale.",
+    "logoUrl": "/logos/companies/pinterest_logo.png",
     "highlights": [
       "Solely owned development, maintenance, and global deployment of an end-to-end analytical insights tool tied to over $65M of revenue in 2021 (Python, SQL, Spark).",
       "Designed, built, and deployed internal analytical tools that used natural language processing and network theory to glean insights from primary search data.",
@@ -46,13 +49,14 @@
     ]
   },
   {
-    "company": "Vega Economics",
+    "company": "Vega Economics, Statistical and Economic Consulting",
     "title": "Associate",
-    "location": "San Francisco Bay Area",
+    "location": "Berkeley, California",
     "start": "2019-05",
     "end": "2020-03",
     "timelineLabel": "May 2019 – Mar 2020",
     "tagline": "Designed NLP and analytical pipelines for expert-witness work on complex financial and healthcare datasets.",
+    "logoUrl": "/logos/companies/vegalogo.png",
     "highlights": [
       "Developed algorithms in Python and R to analyze asset-backed securities data for statistical analysis.",
       "Designed scalable extractive text summarization pipelines to OCR, clean, and extract key information from documents.",
@@ -68,6 +72,7 @@
     "end": "2019-04",
     "timelineLabel": "Jun 2018 – Apr 2019",
     "tagline": "Helped build a 25-week quantitative finance curriculum and cloud dashboards that made markets feel tangible for students.",
+    "logoUrl": "/logos/companies/famelogo.png",
     "highlights": [
       "Collaborated on developing a 25-week online course for quantitative finance using Python.",
       "Developed custom Python programs to report and visualize data in the cloud as daily dashboards using Plotly, WSJ, and Yahoo APIs.",
@@ -82,6 +87,7 @@
     "end": "2018-06",
     "timelineLabel": "Nov 2017 – Jun 2018",
     "tagline": "Led student teams through investment research, valuation, and the logistics of running a large student conference.",
+    "logoUrl": "/logos/companies/famelogo.png",
     "highlights": [
       "Helped organize one of the largest student-run investment conferences on the West Coast in 2017.",
       "Led groups of 30+ students in meetings on business etiquette, data analytics, and stock valuation.",
@@ -96,6 +102,7 @@
     "end": "2018-11",
     "timelineLabel": "Aug 2018 – Nov 2018",
     "tagline": "Researched nuclear, technology, and data policy to support staffers drafting legislation on emerging technologies.",
+    "logoUrl": "/logos/companies/panetta_logo.png",
     "highlights": [
       "Completed a nationally recognized fellowship program under former Secretary of Defense Leon Panetta.",
       "Conducted research on nuclear, technology, and data policy using congressional resources to support staffers drafting legislation.",
@@ -111,6 +118,7 @@
     "end": "2018-08",
     "timelineLabel": "Jun 2018 – Aug 2018",
     "tagline": "Brought structure to messy financial data through a new MySQL layer and Python-driven integrations.",
+    "logoUrl": "/logos/companies/bedell_investment_counselling_logo.jpeg",
     "highlights": [
       "Played an instrumental role in developing a MySQL database for financial data.",
       "Integrated data from Salesforce, Excel, and other systems using Python and APIs.",
@@ -118,4 +126,3 @@
     ]
   }
 ]
-

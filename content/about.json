@@ -1,13 +1,13 @@
 {
   "name": "Daniel Richardson",
-  "headline": "Senior Data Scientist & AI systems builder @ Pinterest",
+  "headline": "Senior Data Scientist @ Pinterest",
   "location": "San Francisco, California, United States",
   "summary": "I build AI systems that start as scrappy experiments and grow into production products with real numbers behind them. From data engineering foundations to agentic orchestration and the context layers around them, my focus is on workflows that stay commercially viable in a world full of AI slop.",
   "focusAreas": [
     "Behavioral audience modeling and clustering",
     "Agentic workflows for sales and analytics automation",
     "Retrieval-augmented generation and semantic search",
-    "ML systems that ship and stay tied to revenue"
+    "Building institutional knowledge for AI-first systems"
   ],
   "education": [
     {
@@ -38,13 +38,17 @@
   "links": {
     "linkedin": "https://www.linkedin.com/in/daniel-r-richardson/"
   },
+  "pullQuotes": [
+    "7+ years of experience building innovative solutions from ambiguous business problems with measurable impact. ",
+    "4x Pinterest hackathon award winner. Led the development of 'Pinterest Personas' a novel user targeting algorithm that generated over ~$80 million/ year in incremental revenue. "
+  ],
   "essay": [
-    "I did not come up through the conventional CS pipeline. I was a first-generation college student, working my way through school and trying to make sense of abstract math that only clicked when I could write code against it. Programming turned proofs into experiments, and that shift changed how I approach every hard problem: make it concrete, make it buildable, make it real.",
-    "At Pinterest I have followed the same pattern: find the gap that is slowing teams down, sketch the system that could close it, and then do the unglamorous work required to make that system real. Personas started as nights-and-weekends behavioral clustering work and grew into an $80M+ audience product. Insights tooling that began as a way to save analysts from repetitive work became core to how sales talks about the business.",
-    "I do not chase titles or headcount. I care about whether the thing we shipped changed how people work and whether we can point to numbers that matter. The four company-wide hackathon wins are not trophies; they are snapshots of a longer pattern of building into spaces that are still half-defined and pushing them closer to production.",
-    "A lot of AI today optimizes for volume: more prompts, more outputs, more dashboards. I try to move in the opposite direction—designing workflows that start with clean data foundations, layer in agentic automation only where it survives contact with the business, and wrap the whole thing in context so the outputs are commercially relevant, not just technically impressive.",
-    "Right now I am deepening my technical foundation through a graduate Machine Learning & Artificial Intelligence certificate at Carnegie Mellon University. It is not a pivot, it is a progression: more tools to design systems deliberately, address messy problems more rigorously, and take on work that demands both architectural thinking and hands-on implementation.",
-    "Away from the keyboard, I look for the same combination of difficulty and craft. I have walked the Camino de Santiago across Spain, free-climbed sea cliffs above the Mediterranean in Mallorca, and spent a week caring for rescued elephants at a sanctuary in rural Thailand. I build furniture with hand tools — slow, precise, and unforgiving of shortcuts. I wire up Arduinos and Raspberry Pis for projects that could probably be solved in software but are more satisfying in hardware. These pursuits have the same logic as the work: choose something hard, develop the judgment to do it well, and care enough to finish it properly."
+    "<strong>I design infrastructure and AI systems that let teams act on insights, not just data.</strong>",
+    "I spearheaded Personas, Pinterest's audience targeting algorithm, which clusters behavior across the user graph. What began as a nights-and-weekends exploration grew into an <strong>$80M+ product</strong> that helps advertisers reach high-intent audiences.",
+    "Many tools started the same way: small automation projects that removed repetitive analyst work became core workflows for <strong>researchers and GTM teams</strong>.",
+    "Beyond product, I help build the <strong> semantic layer of our insights intelligence infrastructure</strong>. This ensures metrics, models, and context are interpretable by both humans and machines. That foundation enables <strong>agent-to-agent workflows</strong>, letting knowledge move through systems instead of getting stuck in dashboards.",
+    "I don't build models for their own sake, I build systems that change how people work and track the numbers to prove it.",
+    "Outside work, I chase the same mix of craft and challenge. I've walked the <strong>Camino de Santiago, deep water soloed the cliffs of Mallorca</strong>, traditional handtool woodworking, and robitics with Arduino and Raspberry Pi projects. Different domains, same principle: pick something hard, learn it deeply, and see it through."
   ]
 }
 
