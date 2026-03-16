@@ -12,6 +12,8 @@ import { CountUp } from "@/app/components/count-up";
 import { SectionHeading } from "@/app/components/section-heading";
 import { TextReveal } from "@/app/components/text-reveal";
 import { FractalTree } from "@/app/components/fractal-tree";
+import { ClusterNetwork } from "@/app/components/cluster-network";
+import { KnowledgeGraph } from "@/app/components/knowledge-graph";
 
 const characterBadges = [
   "Maker / Builder",
@@ -189,6 +191,28 @@ export default function Home() {
                       <p className="label-mono text-muted mt-1">{cs.roleContext}</p>
                     </div>
                   </header>
+
+                  {cs.animation === "cluster-network" && (
+                    <div className="md:pl-[calc(80px+1.5rem)] mb-4">
+                      <div
+                        className="w-full rounded-sm overflow-hidden bg-surface"
+                        style={{ height: "260px" }}
+                      >
+                        <ClusterNetwork />
+                      </div>
+                    </div>
+                  )}
+
+                  {cs.animation === "knowledge-graph" && (
+                    <div className="md:pl-[calc(80px+1.5rem)] mb-4">
+                      <div
+                        className="w-full rounded-sm overflow-hidden bg-surface"
+                        style={{ height: "260px" }}
+                      >
+                        <KnowledgeGraph />
+                      </div>
+                    </div>
+                  )}
 
                   <div className="grid gap-4 md:grid-cols-2 md:pl-[calc(80px+1.5rem)]">
                     <div className="space-y-3">

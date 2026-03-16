@@ -75,6 +75,7 @@ export type CaseStudy = {
   approach: string;
   impact: string;
   metrics: string[];
+  animation?: string;
 };
 
 export type StackDomain = {
